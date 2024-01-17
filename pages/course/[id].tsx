@@ -87,7 +87,7 @@ const CoursePage = () => {
   return (
     <>
       <Head>
-        <title>Onebitflix - {course?.name}</title>
+        <title>TechNanas - {course?.name}</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
       </Head>
       <main className={styles.main}>

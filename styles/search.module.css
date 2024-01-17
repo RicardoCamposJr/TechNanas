@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: black;
+}
+
+.mainContent {
+  flex: 1 0 auto;
+}
+
+.noSearchText {
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: black;
+}/*# sourceMappingURL=search.module.css.map */

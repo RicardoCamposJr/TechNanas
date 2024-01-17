@@ -28,7 +28,7 @@ const HomeNoAuth = ({ course }: IndexPageProps) => {
   return (
     <>
       <Head>
-        <title>Onebitflix</title>
+        <title>TechNanas</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta property="og:title" content="Onebitflix" key="title" />
         <meta name="description" 

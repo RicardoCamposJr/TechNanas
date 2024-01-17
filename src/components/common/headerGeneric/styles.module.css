@@ -1,0 +1,37 @@
+.header {
+  background-color: black;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+  gap: 16px;
+}
+
+.headerLogo {
+  width: 180px;
+  cursor: pointer;
+}
+
+.headerBtn {
+  transition: 0.3s;
+}
+
+.headerBtn:hover {
+  border-color: #ff0044;
+  color: #ccc8c9;
+  background-color: transparent;
+}
+
+@media (max-width: 575px) {
+  .headerContainer {
+    padding: 20px 16px;
+  }
+}
+@media (max-width: 390px) {
+  .headerContainer {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=styles.module.css.map */

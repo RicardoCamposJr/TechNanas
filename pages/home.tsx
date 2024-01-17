@@ -28,7 +28,7 @@ const HomeAuth = () => {
     return (
         <>
         <Head>
-            <title>Onebitflix - Home</title>
+            <title>TechNanas - Home</title>
             <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         </Head>
         <main>

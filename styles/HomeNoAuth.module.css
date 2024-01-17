@@ -1,0 +1,6 @@
+.sectionBackground {
+  background-image: linear-gradient(to bottom, rgba(139, 139, 139, 0.1019607843), #151515), url("../public/homeNoAuth/backgroundPresentationSection.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=HomeNoAuth.module.css.map */

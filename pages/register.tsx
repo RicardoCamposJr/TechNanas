@@ -66,7 +66,7 @@ const Register = () => {
     return(
         <>
             <Head> 
-                <title>Onebitflix - Registro</title>
+                <title>TechNanas - Registro</title>
                 <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
                 {/* Masks */}
                 <script src="https://jsuites.net/v4/jsuites.js"></script>

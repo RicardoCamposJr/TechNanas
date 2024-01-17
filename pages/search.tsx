@@ -43,7 +43,7 @@ const Search = () => {
   return (
     <>
       <Head>
-        <title>Onebitflix - {searchName}</title>
+        <title>TechNanas - {searchName}</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
       </Head>
       <main className={styles.main}>

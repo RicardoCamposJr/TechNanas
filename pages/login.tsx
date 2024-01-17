@@ -59,7 +59,7 @@ const Login = () => {
     return (
         <>
         <Head>
-            <title>Onebitflix - Login</title>
+            <title>TechNanas - Login</title>
             <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         </Head>
         <main className={ styles.main }>

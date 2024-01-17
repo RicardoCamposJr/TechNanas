@@ -1,0 +1,82 @@
+.main {
+  background-image: linear-gradient(to bottom, #151515, black);
+}
+
+.formTitle {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.form {
+  width: 600px;
+  padding: 50px;
+  border: 1px solid #4e4e4e;
+  margin: 0 auto;
+}
+
+.label {
+  font-size: 14;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.input, .inputName {
+  border-color: #4e4e4e;
+  background-color: transparent;
+  color: white;
+}
+.input::-moz-placeholder, .inputName::-moz-placeholder {
+  color: #ccc8c9;
+}
+.input::placeholder, .inputName::placeholder {
+  color: #ccc8c9;
+}
+.input:focus, .inputName:focus {
+  background-color: transparent;
+  border-color: #ccc8c9;
+  color: white;
+  box-shadow: none;
+}
+
+.inputName {
+  text-transform: uppercase;
+}
+.inputName::-moz-placeholder {
+  text-transform: none;
+}
+.inputName::placeholder {
+  text-transform: none;
+}
+
+.formBtn {
+  display: block;
+  margin: 50px auto 0 auto;
+  border-color: #ff0044;
+  color: white;
+}
+.formBtn:hover {
+  background-color: transparent;
+  color: #ccc8c9;
+  border-color: #b30d39;
+}
+
+@media (max-width: 767px) {
+  .formTitle {
+    font-size: 30px;
+  }
+  .form {
+    width: 95%;
+  }
+}
+@media (max-width: 540px) {
+  .form {
+    padding: 50px 10px;
+  }
+}
+@media (max-width: 425px) {
+  .formTitle {
+    font-size: 24px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=registerLogin.module.css.map */

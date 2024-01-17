@@ -1,0 +1,185 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.gridContainer {
+  flex: 1 0 auto;
+  padding: 80px 0;
+}
+
+.header, .footer {
+  background-color: black;
+}
+
+.form {
+  border: 1px solid #4e4e4e;
+  padding: 20px 0px;
+}
+
+.formName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 80%;
+  margin: 20px auto;
+  text-transform: uppercase;
+}
+
+.nameAbbreviation {
+  font-size: 40px;
+  font-weight: bold;
+  min-width: 70px;
+  min-height: 70px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userName {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.memberTime {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.memberTimeImg {
+  width: 20px;
+}
+
+.memberText {
+  font-size: 14px;
+  color: #ccc8c9;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.inputFlexDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.inputFlex, .input {
+  text-transform: uppercase;
+  width: 250px;
+  background-color: transparent;
+  border: 1px solid #4e4e4e;
+  color: white;
+}
+.inputFlex::-moz-placeholder, .input::-moz-placeholder {
+  color: #ccc8c9;
+}
+.inputFlex::placeholder, .input::placeholder {
+  color: #ccc8c9;
+}
+.inputFlex:focus, .input:focus {
+  box-shadow: none;
+  border-color: #ff0044;
+  color: white;
+  background-color: transparent;
+}
+
+.inputNormalDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.input {
+  text-transform: lowercase;
+  width: 550px;
+}
+
+.formBtn {
+  border-color: #ff0044;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  display: block;
+  margin: 10px auto;
+  padding: 6px 20px;
+}
+.formBtn:hover {
+  border-color: #b30d39;
+  background-color: transparent;
+  color: #ccc8c9;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.renderForm {
+  display: block;
+  width: 200px;
+  border: 1px solid #4e4e4e;
+  background-color: transparent;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 14px 0px;
+}
+.renderForm:hover {
+  background-color: transparent;
+  color: #ff0044;
+}
+.renderForm:active {
+  background-color: transparent;
+  box-shadow: none;
+}
+.renderForm:focus {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+@media (max-width: 991px) {
+  .title {
+    text-align: center;
+  }
+  .btnColumn {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .inputFlexDiv {
+    gap: 20px;
+  }
+  .inputFlex, .input {
+    width: 400px;
+  }
+}
+@media (max-width: 460px) {
+  .title {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .nameAbbreviation {
+    font-size: 30px;
+    min-height: 60px;
+    min-width: 60px;
+  }
+  .userName {
+    font-size: 25px;
+  }
+  .inputFlex, .input {
+    width: 95%;
+  }
+}/*# sourceMappingURL=profile.module.css.map */

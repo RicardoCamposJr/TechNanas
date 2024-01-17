@@ -1,0 +1,10 @@
+.sectionTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.slideSectionBtn:hover {
+  border-color: #ff0044;
+  background-color: transparent;
+  color: #ccc8c9;
+}/*# sourceMappingURL=styles.module.css.map */

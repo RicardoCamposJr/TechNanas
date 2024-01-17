@@ -31,7 +31,7 @@ const UserInfo = () => {
     return (
         <>
             <Head>
-                <title>Onebitflix - Meus dados</title>
+                <title>TechNanas - Meus dados</title>
                 <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
             </Head>
             <main className={ styles.main }>
